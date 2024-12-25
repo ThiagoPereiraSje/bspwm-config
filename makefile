@@ -4,3 +4,5 @@ install:
 	mkdir ~/.config/bspwm
 	mkdir ~/.config/sxhkd
 	mkdir ~/.config/polybar
+	cp bspwmrc ~/.config/bspwm/
+	cp sxhkdrc ~/.config/sxhkd/
