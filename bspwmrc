@@ -21,3 +21,4 @@ bspc rule -a Screenkey manage=off
 compton &
 polybar &
 feh --bg-fill --randomize /usr/share/backgrounds/gnome/*
+/usr/bin/numlockx on
