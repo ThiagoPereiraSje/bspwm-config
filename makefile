@@ -1,6 +1,6 @@
 install:
 	sudo apt update
-	sudo apt install -y polybar bspwm sxhkd rofi compton feh
+	sudo apt install -y polybar bspwm sxhkd rofi compton feh mint-y-icons materia-gtk-theme
 	mkdir -p ~/.config/bspwm
 	mkdir -p ~/.config/sxhkd
 	mkdir -p ~/.config/polybar
