@@ -1,5 +1,5 @@
 install:
-  sudo apt update
+	sudo apt update
 	sudo apt install -y polybar bspwm sxhkd rofi picom feh caja
 	mkdir ~/.config/bspwm
 	mkdir ~/.config/sxhkd
