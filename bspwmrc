@@ -21,3 +21,4 @@ bspc rule -a Screenkey manage=off
 compton &
 feh --bg-fill --randomize /usr/share/backgrounds/xfce/*
 /usr/bin/numlockx on
+$HOME/.config/polybar/launch.sh
