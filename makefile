@@ -18,6 +18,3 @@ update:
 	cp -f sxhkdrc ~/.config/sxhkd/
 	cp -f polybar.ini ~/.config/polybar/config.ini
 	cp -f settings.ini ~/.config/gtk-3.0/
-	cp -f fonts/*.ttf ~/.local/share/fonts/
-	cp -f fonts/*.otf ~/.local/share/fonts/
-	fc-cache -fv
