@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + d
-	rofi -show drun -show-icons
+	xfce4-appfinder
 
 # make sxhkd reload its configuration files:
 super + Escape

@@ -20,5 +20,5 @@ bspc rule -a Screenkey manage=off
 # Auto start
 picom &
 polybar &
-feh --bg-fill --randomize /usr/share/backgrounds/gnome/*
+feh --bg-fill --randomize /usr/share/backgrounds/xfce/*
 /usr/bin/numlockx on
