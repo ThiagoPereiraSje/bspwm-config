@@ -1,6 +1,6 @@
 install:
 	sudo apt update
-	sudo apt install -y polybar bspwm sxhkd picom feh numlockx
+	sudo apt install -y polybar bspwm sxhkd compton feh numlockx
 	mkdir -p ~/.config/bspwm
 	mkdir -p ~/.config/sxhkd
 	mkdir -p ~/.config/polybar
