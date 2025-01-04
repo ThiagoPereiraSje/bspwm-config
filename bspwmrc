@@ -19,6 +19,6 @@ bspc config gapless_monocle      true
 
 # Auto start
 compton &
-feh --bg-fill --randomize /usr/share/backgrounds/xfce/*
+feh --bg-fill --randomize $HOME/.config/backgrounds/*
 /usr/bin/numlockx on
 $HOME/.config/polybar/launch.sh
