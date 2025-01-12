@@ -11,7 +11,6 @@ install:
 	cp -f polybar/config.ini ~/.config/polybar/config.ini
 	cp -f polybar/launch.sh ~/.config/polybar/launch.sh
 	cp -rf backgrounds ~/.config/
-	cp -f settings.ini ~/.config/gtk-3.0/
 	cp -f fonts/*.ttf ~/.local/share/fonts/
 	cp -f fonts/*.otf ~/.local/share/fonts/
 	fc-cache -fv
@@ -21,4 +20,3 @@ update:
 	cp -f sxhkdrc ~/.config/sxhkd/
 	cp -f polybar/config.ini ~/.config/polybar/config.ini
 	cp -f polybar/launch.sh ~/.config/polybar/launch.sh
-	cp -f settings.ini ~/.config/gtk-3.0/
