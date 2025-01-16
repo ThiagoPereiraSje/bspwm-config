@@ -4,11 +4,11 @@
 
 # terminal emulator
 super + Return
-	qterminal
+	xfce4-terminal
 
 # launch file manager
 super + f
-	pcmanfm
+	thunar
 
 # program launcher
 super + d

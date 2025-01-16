@@ -13,9 +13,11 @@ install:
 	cp -rf backgrounds ~/.config/
 	cp -f fonts/*.ttf ~/.local/share/fonts/
 	cp -f fonts/*.otf ~/.local/share/fonts/
+	cp -f settings.ini ~/.config/gtk-3.0/
 
 update:
 	cp -f bspwmrc ~/.config/bspwm/
 	cp -f sxhkdrc ~/.config/sxhkd/
 	cp -f polybar/config.ini ~/.config/polybar/config.ini
 	cp -f polybar/launch.sh ~/.config/polybar/launch.sh
+	cp -f settings.ini ~/.config/gtk-3.0/
